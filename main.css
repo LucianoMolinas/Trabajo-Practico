@@ -1,0 +1,126 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.sidebar {
+  background-color: white;
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  padding-left: 25px;
+  gap: 10px;
+  ;
+
+
+}
+
+.status {
+
+  font-size: small;
+}
+
+.search {
+
+  border-radius: 10px;
+  padding: 10px;
+  width: 250px;
+
+
+
+}
+
+.search-one {
+
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  width: 40vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section {
+  display: flex;
+
+}
+
+.chat-header {
+
+  background-color: whit;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.first-header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.aiden-picture {
+
+  width: 50px;
+  height: 50px;
+  padding: 10px 10px 10px 10px;
+
+
+
+
+}
+
+.chat-actions {
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-right: 20px;
+}
