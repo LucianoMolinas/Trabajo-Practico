@@ -2,7 +2,7 @@
   padding: 0%;
   margin: 0%;
 
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -183,6 +183,40 @@ button {
 
   padding: 10px;
 }
+
+.timestamp {
+
+  font-size: 12px;
+  color: grey;
+}
+
+.status-green::before {
+
+  content: "🟢 ";
+  font-size: 8px;
+
+}
+
+
+.status-red::before {
+
+  content: "🔴 ";
+  font-size: 8px;
+
+}
+
+.status-red {
+
+  font-size: 12px;
+  color: grey;
+}
+
+.status-green {
+
+  font-size: 12px;
+  color: grey;
+}
+
 
 
 
