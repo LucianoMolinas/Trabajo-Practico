@@ -45,6 +45,12 @@
 
 }
 
+
+.contact:hover {
+
+  background-color: #efefef;
+}
+
 .contact-Aiden {
 
   display: flex;
@@ -261,7 +267,7 @@ section {
 
 @media(max-width:480px) {
 
-  .section {
+  section {
     flex-direction: column;
 
   }
